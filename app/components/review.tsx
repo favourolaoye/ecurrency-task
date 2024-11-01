@@ -33,7 +33,7 @@ export default function Reviews() {
   }
 
   useEffect(() => {
-    const timer = setInterval(goToNext, 3000) // Change slide every 3 seconds
+    const timer = setInterval(goToNext, 3000) 
     return () => clearInterval(timer)
   }, [])
 

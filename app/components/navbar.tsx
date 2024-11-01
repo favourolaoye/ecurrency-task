@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Logo from "@/public/logo.svg";
+
 interface pageProps{
 page:string
 }

@@ -19,8 +19,8 @@ export default function Partners() {
               key={id} 
               src={sp.img} 
               alt={`Sponsor ${id + 1}`} 
-              width={80} // Reduce width for mobile
-              height={40} // Reduce height for mobile
+              width={80} 
+              height={40} 
               className="w-auto h-6 md:h-8 lg:h-10 object-contain"
             />
           ))}

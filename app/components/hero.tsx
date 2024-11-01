@@ -22,7 +22,7 @@ export default function HeroSection() {
       {/* Navbar */}
       <Navbar page="" />
 
-      {/* Hero Section with Auto Image Slider */}
+      {/* Hero Section */}
       <div className="relative h-[60vh] sm:h-[80vh] md:h-screen">
         {images.map((image, index) => (
           <div
