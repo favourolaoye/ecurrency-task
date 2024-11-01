@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function ProductFeature() {
   return (
-    <div className="flex flex-col md:flex-row w-full justify-center bg-white mx-auto p-4 md:p-8">
-      <div className="flex flex-col justify-center lg:ml-20">
+    <div className="flex flex-col md:flex-row w-full bg-white mx-auto p-4">
+      <div className="flex flex-col justify-center lg:ml-20 lg:flex-row">
       {/* Product Image */}
       <div className="w-full md:w-1/2 relative mb-8 md:mb-0">
         <Image
