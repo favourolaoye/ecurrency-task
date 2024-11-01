@@ -14,7 +14,7 @@ export default function ShopHero() {
     }, 5000);
 
     return () => clearInterval(timer);
-  }, []);
+  });
 
   return (
     <div className="relative">

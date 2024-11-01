@@ -89,7 +89,7 @@ export default function Testimonial() {
               aria-hidden={index !== currentIndex}
             >
               <blockquote className="text-gray-700 py-4 sm:py-10 italic mb-4 text-sm sm:text-base">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </blockquote>
               <div className="flex items-center">
                 <div className="flex-shrink-0 mr-4">
