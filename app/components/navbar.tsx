@@ -61,7 +61,7 @@ export default function Navbar() {
         </div>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden">
+        <div className="md:hidden text-center">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               href="/"
@@ -76,16 +76,16 @@ export default function Navbar() {
               About
             </Link>
             <Link
-              href="/services"
+              href="/shop"
               className="text-logoLink hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
-              Services
+              Shop
             </Link>
             <Link
-              href="/contact"
+              href="/faq"
               className="text-logoLink hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
-              Contact
+              FAQs
             </Link>
           </div>
         </div>
