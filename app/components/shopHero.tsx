@@ -19,7 +19,7 @@ export default function ShopHero() {
   return (
     <div className="relative">
       {/* Navbar */}
-      <Navbar page="" />
+      <Navbar/>
 
       {/* Hero Section with Auto Image Slider */}
       <div className="relative h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-screen">

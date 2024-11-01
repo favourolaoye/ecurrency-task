@@ -5,7 +5,7 @@ export default function FaqHero() {
   return (
     <div>
       <div className="w-full h-[400px] md:h-[596px] flex bg-yellowShade">
-        <Navbar page=""/>
+        <Navbar/>
         <div className="w-full flex flex-col h-full  md:pt-20">
           <div className="flex w-full max-w-4xl mx-auto min-h-[600px] px-4 lg:p-0">
             <div className="flex flex-col gap-6 h-fit text-[#12305B] my-auto items-start text-sm w-full max-w-2xl">

@@ -15,12 +15,12 @@ export default function HeroSection() {
     }, 5000);
 
     return () => clearInterval(timer);
-  }, []);
+  });
 
   return (
     <div className="relative">
       {/* Navbar */}
-      <Navbar page="" />
+      <Navbar/>
 
       {/* Hero Section */}
       <div className="relative h-[60vh] sm:h-[80vh] md:h-screen">

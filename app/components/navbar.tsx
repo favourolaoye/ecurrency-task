@@ -3,10 +3,8 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Logo from "@/public/logo.svg";
 
-interface pageProps{
-page:string
-}
-export default function Navbar({ page }:pageProps) {
+
+export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (

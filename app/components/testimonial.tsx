@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Play, ChevronLeft, ChevronRight } from "lucide-react";
+import { Play } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function Testimonial() {
@@ -35,7 +35,7 @@ export default function Testimonial() {
     }, 3000);
 
     return () => clearInterval(timer);
-  }, []);
+  });
 
   const goToSlide = (index: number) => {
     setCurrentIndex(index);
