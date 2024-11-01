@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 export default function ShopHero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = ["/hero1.png"];
+  const images = ["/hero1.png", "/man.png"];
 
   useEffect(() => {
     const timer = setInterval(() => {

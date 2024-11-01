@@ -7,12 +7,12 @@ import Patners from "./patners";
 export default function HeroSection() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = ["/hero1.png"];
+  const images = ["/hero1.png","/man.png"];
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(timer);
   });
