@@ -96,7 +96,7 @@ export default function FAQ() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                {openIndex === index && <div className="mt-2 text-gray-600">{item.answer}</div>}
+                {openIndex === index && <div className="mt-2 text-gray-600 text-justify">{item.answer}</div>}
               </div>
             ))}
           </div>
