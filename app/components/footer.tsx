@@ -40,7 +40,7 @@ export default function Footer() {
         <div className="flex flex-col gap-10 max-w-6xl mx-auto p-4 md:p-8">
           <div className="flex justify-center">
             <Link href="/" className="">
-              <Logo className="w-16 h-auto md:w-24" />
+              <Logo className="w-16 h-26 md:w-24" />
             </Link>
           </div>
           <div className="flex flex-col gap-4 md:flex-row md:gap-8">
